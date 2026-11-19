@@ -1765,6 +1765,7 @@ export function Odontogram({
     const previous = surfaceState[key];
 
     if (previous === condition) {
+      clearSurface(tooth, surface);
       return;
     }
 
