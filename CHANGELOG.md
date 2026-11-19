@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.3
+
+- Clear a tooth surface when its active condition is applied a second time,
+  including mouse, touch and keyboard activation. Clearing remains undoable.
+
 ## 0.8.2
 
 - Keep the general-assessment dialog inside the viewport at every supported
